@@ -8,3 +8,12 @@ h1 {
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+.inactive{
+    background-color: gainsboro;
+    color: black;
+}
+
+.active {
+    background-color: deepskyblue;
+}
