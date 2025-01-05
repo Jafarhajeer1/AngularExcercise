@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './help-box.component.css'
 })
 export class HelpBoxComponent {
-
+  stayHere() {
+    window.alert('وين رايح؟');
+  }
 }
