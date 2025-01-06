@@ -3,6 +3,27 @@ div {
     border-radius:50px;
     text-align: center;
     padding: 100px;
+}
+
+.normalDiv{
     background-color: #58508D;
     color: white;
 }
+
+.lightDiv{
+    background-color: #FFFFFF !important;
+    color: #A5A5A5 !important;
+    border: solid 5px #eeeeee;
+}
+
+.darkDiv{
+    background-color: #666666;
+    color: white;
+    border: solid 5px black;
+
+}
+
+.newFont{
+    font-family: fantasy;
+}
+
