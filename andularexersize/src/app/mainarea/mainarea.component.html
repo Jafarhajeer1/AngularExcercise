@@ -1,7 +1,7 @@
 <table style="min-width: 100%;">
     <tr>
         <td>
-            <app-account></app-account>
+            <app-account *ngIf="hasAccount"></app-account>
         </td>
         <td>
             <app-profile></app-profile>
@@ -11,3 +11,6 @@
         </td>
     </tr>
 </table>
+<ol>
+    <li *ngFor="let st of students">{{st}}</li>
+</ol>

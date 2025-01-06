@@ -1,16 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 //import { NgClass } from '@angular/common';
-import { NgStyle } from '@angular/common';
 
 @Component({
   selector: 'app-account',
-  imports: [ NgStyle ],
+  imports: [  ],
   templateUrl: './account.component.html',
   styleUrl: './account.component.css'
 })
-export class AccountComponent implements OnInit{
+export class AccountComponent {
   myStyles:Record<string,string>={}
-
+/*
   setupStyles(){
     this.myStyles = {
       'background-color':'#666666',
@@ -21,4 +20,7 @@ export class AccountComponent implements OnInit{
   ngOnInit(): void {
     this.setupStyles();
   }
+    */
+
+  
 }
